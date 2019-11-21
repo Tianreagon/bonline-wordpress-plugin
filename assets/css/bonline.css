@@ -1,0 +1,338 @@
+
+
+
+body {
+    background-color: #eaffff;
+}
+
+.bo-wrap {
+  margin: 10px 20px 0 2px;
+}
+
+.bo-panel {
+  display: block;
+}
+
+.dash-comp-logo {
+  margin-left: 100px;
+}
+
+.admin-client-info-panel {
+    position: relative;
+    background-color: #e9e9e9;
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+.admin-client-info-panel > h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: 600;
+}
+
+.admin-client-info-panel > h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+.admin-client-info-panel > h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.admin-client-info-panel > h4 {
+    display: block;
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.admin-client-info-panel > h5 {
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: light;
+}
+
+.admin-client-info-panel > h6 {
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: lighter;
+}
+
+.admin-client-info-panel > p {
+  display: block;
+  font-size: 1em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  letter-spacing: 0.1em;
+  font-weight: lighter;
+}
+
+.admin-client-info-panel > h1,
+.admin-client-info-panel > h2,
+.admin-client-info-panel > h3,
+.admin-client-info-panel > h4,
+.admin-client-info-panel > h5,
+.admin-client-info-panel > h6, 
+.admin-client-info-panel > p {
+
+  color: rgb(230, 230, 230);
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.info-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em 3em;
+    margin-right: 30px;
+}
+
+.bb-block {
+    width: auto;
+}
+
+.imp-notices {
+  border-left-color: #dc3232 !important;
+  border: 3px solid #85bbd3 !important;
+}
+
+.imp-notices > p {
+  font-weight: 600 !important;
+}
+
+.bo-label {
+  color: rgb(7, 170, 192);
+}
+
+
+
+
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+  
+   #bo-wrapper {
+      width: 100%;
+      margin-top:50px;
+  }
+  
+  #bo-page-wrapper {
+      padding: 15px 15px;
+      min-height: 600px;
+      background:#F3F3F3;
+     
+  }
+  #bo-page-inner {
+      width:100%;
+      margin:10px 20px 10px 0px;
+      background-color:#fff!important;
+      padding:10px;
+      min-height:1050px;
+  }
+  .bo-pad-top {
+      padding-top:15px;
+  }
+  /*==============================================
+      MENU STYLES    
+      =============================================*/
+  
+  .sidebar-collapse .nav {
+    padding:0;
+      padding-top:50px;
+  }
+  
+  .sidebar-collapse > .nav > li > a {
+    padding:15px 10px;
+      color: #214761;
+  font-weight: 900;
+  font-size: 16px;
+  }
+  .sidebar-collapse > .nav > li {
+    border-bottom:1px solid #e1e1e1;
+  }
+  .sidebar-collapse .nav > li > a:hover,
+  .sidebar-collapse .nav > li > a:focus {
+    
+    background:#F3F3F3;
+    outline:0;
+  }
+  
+  .navbar-side {
+    border:none;
+    background-color: #fff;
+    
+  }
+  .navbar-inverse {
+  
+  background-color: #214761;
+  border-color: #F0F0F0;
+  min-height: 80px;
+  }
+  
+  
+  .nav > li > a > i {
+      margin-right:10px;
+  }
+  .logout-spn {
+      float:right;
+      color:#fff;
+      font-size:25px;
+      font-weight:800;
+      margin:20px;
+      margin: 10px 25px 10px 50px;
+  }
+      .logout-spn a {
+          text-decoration:none;
+      }
+  .active-link {
+      background-color:#f3f3f3;
+  }
+      
+  /*==============================================
+      DASHBOARD STYLES    
+      =============================================*/
+<<<<<<< HEAD
+  /* .div-square {
+=======
+  .div-square {
+>>>>>>> master
+      padding:5px;
+      border:3px double #e1e1e1;
+      -webkit-border-radius:8px;
+     -moz-border-radius:8px;
+      border-radius:8px;
+      margin:5px;
+  
+  }
+  
+  .div-square> a,.div-square> a:hover {
+      color:#808080;
+       text-decoration:none;
+  }
+  
+<<<<<<< HEAD
+  .bo-my-sites-widget {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(0,0,0,.1);
+      font-size: 1rem;
+      padding-bottom: 1rem;
+      margin-bottom: 1rem;
+  } */
+  
+  #bo_network_admin_calendar{
+    width: 200%;
+  }
+
+  #bo_show_all_pages_widget > div > ul > li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #dashboard-widgets li{
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  #wp-admin-bar-bonline-logo > div{
+    width: 12px;
+    height: 30px;
+    background-image: url('https://storage.googleapis.com/main-bonline-518506938661-wp-data/app-bonline-media/2019/02/bd500db2-bonline-small-logo.png');
+  }
+
+  #wp-admin-bar-bonline-logo > div:hover{
+    background-image: url('https://storage.googleapis.com/main-bonline-518506938661-wp-data/app-bonline-media/2019/02/bd500db2-bonline-small-logo.png');
+  }
+
+  .bo-my-sites-widget{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.3);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*==============================================
+      MEDIA QUERIES     
+      =============================================*/
+    @media(min-width: 1800px){
+      #bo_network_admin_calendar{
+        width: 400%;
+      }
+    }
+
+=======
+  /*==============================================
+      MEDIA QUERIES     
+      =============================================*/
+   
+>>>>>>> master
+   @media(min-width:768px) {
+       #page-wrapper{
+                 margin: 0 0 0 260px;
+          padding: 15px 30px;
+          min-height: 1050px;
+      
+      }
+    
+    
+      .navbar-side {
+          z-index: 1;
+          position: absolute;
+          width: 260px;
+         
+      }
+  
+   
+  }
+<<<<<<< HEAD
+
+
+=======
+  
+  
+>>>>>>> master
+  
